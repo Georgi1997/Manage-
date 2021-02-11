@@ -1,0 +1,38 @@
+$color-primary-red: hsl(12, 88%, 59%);
+$color-primary-blue: hsl(228, 39%, 23%);
+
+$color-neutral-grayish-blue: hsl(227, 12%, 61%);
+$color-neutral-dark-blue: hsl(233, 12%, 13%);
+$color-pale-red: hsl(13, 100%, 96%);
+$color-light-grey: hsl(0, 0%, 98%);
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%; //1rem = 10px;
+  @media only screen and (max-width: 1024px) {
+    font-size: 50%;
+  }
+  @media only screen and (max-width: 500px) {
+    font-size: 42.5%;
+  }
+}
+
+body {
+  font-family: "Be Vietnam", sans-serif;
+  overflow-x: hidden;
+}
+
+.heading2 {
+  font-weight: 800;
+  width: 50%;
+  font-size: 3rem;
+  color: $color-primary-blue;
+  margin-bottom: 3rem;
+}

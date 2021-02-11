@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Google font - Be Vietnam -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="aos/dist/aos.css" />
+    <!-- flickity css -->
+    <link rel="stylesheet" href="flickity/dist/flickity.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | Manage landing page</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__logo leftAnimated">
+        <img src="images/logo.svg" alt="manage logo" />
+      </div>
+      <div class="navbar__nav topAnimated">
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Pricing</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">product</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">about us</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">careers</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">community</a>
+          </li>
+        </ul>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <a href="#" class="btn btn-main bottomAnimated">get started</a>
+    </nav>
+    <main class="main">
+      <section class="section-cta">
+        <div class="cta">
+          <div class="cta__text">
+            <h1 class="cta__heading leftAnimated">
+              Bring everyone together to build better products
+            </h1>
+            <p class="cta__paragraph rightAnimated">
+              Manage makes it simple for software teams to plan day-to-day tasks
+              while keeping the larger team goals in view.
+            </p>
+
+            <a href="#" class="btn btn-main bottomAnimated">Get started</a>
+          </div>
+
+          <div class="cta__numbers rightAnimated">
+            <img
+              src="images/illustration-intro.svg"
+              alt=""
+              class="cta__numbers__img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-features">
+        <div class="features">
+          <div
+            class="features__text"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="1500"
+          >
+            <h2 class="heading2">What's different about Manage?</h2>
+            <p class="features__paragraph">
+              Manage provides all the functionality your team needs, without the
+              complexity. Our software is tailor-made for modern digital product
+              teams.
+            </p>
+          </div>
+          <div class="features__card__container">
+            <div
+              class="features__card"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <div class="number">01</div>
+              <div class="features__card__text">
+                <h3>Track company - wide progress</h3>
+
+                <p>
+                  See how your day-to-day tasks fit into the wider vision. Go
+                  from tracking progress at the milestone level all the way done
+                  to the smallest of details. Never lose sight of the bigger
+                  picture again.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="features__card"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="700"
+            >
+              <div class="number">02</div>
+              <div class="features__card__text">
+                <h3>Advanced built-in reports</h3>
+
+                <p>
+                  Set internal delivery estimates and track progress toward
+                  company goals. Our customisable dashboard helps you build out
+                  the reports you need to keep key stakeholders informed.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="features__card"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="1500"
+            >
+              <div class="number">03</div>
+              <div class="features__card__text">
+                <h3>Everything you need in one place</h3>
+
+                <p>
+                  Stop jumping from one service to another to communicate, store
+                  files, track tasks and share documents. Manage offers an
+                  all-in-one team productivity solution.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimonial">
+        <div class="testimonial">
+          <h2 class="heading2">What they've said</h2>
+          <div
+            class="carousel"
+            data-flickity='{
+            "autoPlay": 4000,
+            "pageDots": false,
+            "prevNextButtons": false,
+            
+            "contain": true
+
+          }'
+          >
+            <div class="carousel-cell">
+              <img
+                src="images/avatar-ali.png"
+                alt="Ali"
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__person-name">Ali Bravo</h3>
+              <p class="testimonial__paragraph">
+                “We have been able to cancel so many other subscriptions since
+                using Manage. There is no more cross-channel confusion and
+                everyone is much more focused.”
+              </p>
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="images/avatar-anisha.png"
+                alt="Ali"
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__person-name">Anisha Li</h3>
+              <p class="testimonial__paragraph">
+                “Manage has supercharged our team’s workflow. The ability to
+                maintain visibility on larger milestones at all times keeps
+                everyone motivated.”
+              </p>
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="images/avatar-richard.png"
+                alt="Ali"
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__person-name">Richard Watts</h3>
+              <p class="testimonial__paragraph">
+                “Manage allows us to provide structure and process. It keeps us
+                organized and focused. I can’t stop recommending them to
+                everyone I talk to!”
+              </p>
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="images/avatar-ali.png"
+                alt="Ali"
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__person-name">Shanai Gough</h3>
+              <p class="testimonial__paragraph">
+                “Their software allows us to track, manage and collaborate on
+                our projects from anywhere. It keeps the whole team in-sync
+                without being intrusive.”
+              </p>
+            </div>
+          </div>
+          <a href="# " class="btn btn-main">Get started</a>
+        </div>
+      </section>
+      <div class="simplify">
+        <h2 class="heading2">Simplify how your team works today.</h2>
+        <div class="btn btn-secondary">get started</div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__social">
+        <img
+          src="images/logo-footer.svg"
+          alt="footer logo"
+          class="footer__logo"
+        />
+        <div class="icon-container">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Home</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">pricing</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">products</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">about us</a>
+          </li>
+        </ul>
+        <!-- </div> -->
+        <!-- <div class="footer__nav"> -->
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">careers</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">community</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">privacy policy</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__form-group">
+        <input
+          type="email"
+          placeholder="Updates in your inbox..."
+          id="email"
+          class="footer__input"
+        />
+        <a href="#" class="btn btn-main">Submit</a>
+      </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="aos/dist/aos.js"></script>
+    <!-- flickity js -->
+    <script src="flickity/dist/flickity.pkgd.min.js"></script>
+    <!-- personal js -->
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+.navbar {
+  padding: 5rem 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media only screen and (max-width: 888px) {
+    padding: 5rem 10rem;
+  }
+  @media only screen and (max-width: 400px) {
+    padding: 5rem 7rem;
+  }
+  &__logo {
+  }
+
+  &__nav {
+    position: relative;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__item {
+    padding: 1rem 1.5rem;
+    transition: all 0.3s;
+    position: relative;
+
+    &::after {
+      display: block;
+      content: "";
+      width: 0;
+      height: 100%;
+      background-color: $color-primary-red;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      transition: width 0.5s ease-in-out;
+      transform-origin: 0;
+      border-radius: 3px;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+    &:hover .navbar__link {
+      color: #fff;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: $color-primary-blue;
+    font-size: 1.6rem;
+    font-weight: 500;
+    position: relative;
+    z-index: 10;
+    transition: color 0.6s ease-in;
+  }
+}
+
+//////MOBILE NAV
+//////MOBILE NAV
+//////MOBILE NAV
+//////MOBILE NAV
+
+.burger {
+  display: none;
+  cursor: pointer;
+  div {
+    width: 24px;
+    height: 3px;
+    margin: 5px;
+    background-color: $color-primary-red;
+  }
+}
+
+.active {
+  transform: translateX(-15%) !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: $color-neutral-grayish-blue;
+    z-index: 100;
+  }
+
+  .navbar__list {
+    position: absolute;
+    left: 0;
+    top: 6.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-neutral-grayish-blue;
+    transform: translateX(100%);
+
+    height: 50vh;
+    width: 50vw;
+
+    transition: all 0.5s ease-out;
+  }
+}
+
+@media only screen and (max-width: 802px) {
+  .navbar .btn.btn-main {
+    display: none;
+  }
+}
