@@ -399,6 +399,9 @@ body {
     padding: 1rem 0.3rem;
     border-radius: 10rem;
     width: 20rem; }
+    @media only screen and (max-width: 500px) {
+      .footer__input {
+        margin-bottom: 2rem; } }
 
 .section-testimonial {
   padding: 5rem 10rem; }
