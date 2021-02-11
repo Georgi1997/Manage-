@@ -414,19 +414,18 @@ body {
   flex-direction: column; }
   .testimonial h2 {
     align-self: center;
-    text-align: center; }
-    @media only screen and (max-width: 850px) {
-      .testimonial h2 {
-        margin-bottom: 0; } }
+    text-align: center;
+    margin-bottom: 3rem; }
   .testimonial .btn.btn-main {
     margin-top: 10rem;
     align-self: center; }
     @media only screen and (max-width: 850px) {
       .testimonial .btn.btn-main {
         margin-top: 2rem; } }
+  .testimonial .carousel {
+    margin-bottom: 3rem; }
   .testimonial .carousel-cell {
     width: 33%;
-    height: 40vh;
     counter-increment: gallery-cell;
     display: flex;
     flex-direction: column;
@@ -456,16 +455,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 25vh;
   background-image: url(../images/bg-simplify-section-desktop.svg), linear-gradient(#f25f3a, #f25f3a); }
   @media only screen and (max-width: 800px) {
     .simplify {
-      padding: 3rem 10rem;
-      height: 15vh; } }
-  @media only screen and (max-width: 400px) {
-    .simplify {
+      padding: 6rem 10rem;
       flex-direction: column;
-      height: max-content;
       align-items: center;
       justify-content: center; } }
   .simplify h2 {
@@ -473,4 +467,5 @@ body {
     color: #fafafa; }
     @media only screen and (max-width: 700px) {
       .simplify h2 {
-        font-size: 2rem; } }
+        font-size: 2rem;
+        width: 80%; } }

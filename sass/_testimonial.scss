@@ -15,9 +15,8 @@
   h2 {
     align-self: center;
     text-align: center;
-    @media only screen and (max-width: 850px) {
-      margin-bottom: 0;
-    }
+
+    margin-bottom: 3rem;
   }
 
   .btn.btn-main {
@@ -27,9 +26,12 @@
       margin-top: 2rem;
     }
   }
+  .carousel {
+    margin-bottom: 3rem;
+  }
   .carousel-cell {
     width: 33%;
-    height: 40vh;
+
     counter-increment: gallery-cell;
     display: flex;
     flex-direction: column;
@@ -67,16 +69,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 25vh;
+
   background-image: url(../images/bg-simplify-section-desktop.svg),
     linear-gradient($color-primary-red, $color-primary-red);
   @media only screen and (max-width: 800px) {
-    padding: 3rem 10rem;
-    height: 15vh;
-  }
-  @media only screen and (max-width: 400px) {
+    padding: 6rem 10rem;
     flex-direction: column;
-    height: max-content;
+
     align-items: center;
     justify-content: center;
   }
@@ -86,6 +85,7 @@
     color: $color-light-grey;
     @media only screen and (max-width: 700px) {
       font-size: 2rem;
+      width: 80%;
     }
   }
 
