@@ -16,6 +16,7 @@ html {
       font-size: 42.5%; } }
 
 body {
+  overflow-x: hidden;
   font-family: "Be Vietnam", sans-serif; }
 
 .heading2 {
