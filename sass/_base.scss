@@ -16,6 +16,7 @@ $color-light-grey: hsl(0, 0%, 98%);
 
 html {
   font-size: 62.5%; //1rem = 10px;
+  overflow-x: hidden;
   @media only screen and (max-width: 1024px) {
     font-size: 50%;
   }
@@ -26,7 +27,6 @@ html {
 
 body {
   font-family: "Be Vietnam", sans-serif;
-  overflow-x: hidden;
 }
 
 .heading2 {

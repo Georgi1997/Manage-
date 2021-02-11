@@ -6,7 +6,8 @@
   margin: 0; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  overflow-x: hidden; }
   @media only screen and (max-width: 1024px) {
     html {
       font-size: 50%; } }
@@ -15,8 +16,7 @@ html {
       font-size: 42.5%; } }
 
 body {
-  font-family: "Be Vietnam", sans-serif;
-  overflow-x: hidden; }
+  font-family: "Be Vietnam", sans-serif; }
 
 .heading2 {
   font-weight: 800;
