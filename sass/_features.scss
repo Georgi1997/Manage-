@@ -4,7 +4,10 @@
     padding: 5rem 10rem;
   }
   @media only screen and (max-width: 400px) {
-    padding: 5rem 7rem;
+    padding: 5rem;
+  }
+  @media only screen and (max-width: 350px) {
+    padding: 5rem 2rem;
   }
 }
 

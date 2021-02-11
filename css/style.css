@@ -116,7 +116,7 @@ body {
       padding: 5rem 10rem; } }
   @media only screen and (max-width: 400px) {
     .section-cta {
-      padding: 5rem 7rem; } }
+      padding: 5rem; } }
 
 .cta {
   display: flex;
@@ -169,7 +169,10 @@ body {
       padding: 5rem 10rem; } }
   @media only screen and (max-width: 400px) {
     .section-features {
-      padding: 5rem 7rem; } }
+      padding: 5rem; } }
+  @media only screen and (max-width: 350px) {
+    .section-features {
+      padding: 5rem 2rem; } }
 
 .features {
   display: grid;
@@ -238,6 +241,9 @@ body {
   @media only screen and (max-width: 400px) {
     .navbar {
       padding: 5rem 7rem; } }
+  @media only screen and (max-width: 400px) {
+    .navbar {
+      padding: 5rem; } }
   .navbar__nav {
     position: relative; }
   .navbar__list {
