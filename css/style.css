@@ -172,7 +172,8 @@ body {
       padding: 5rem; } }
   @media only screen and (max-width: 350px) {
     .section-features {
-      padding: 5rem 2rem; } }
+      padding: 5rem 1rem;
+      font-size: 0.4rem; } }
 
 .features {
   display: grid;
