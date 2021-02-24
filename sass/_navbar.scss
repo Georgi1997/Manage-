@@ -1,5 +1,6 @@
 .navbar {
   padding: 5rem 15rem;
+  height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,12 +97,12 @@
   }
   .navbar__nav {
     position: absolute;
-    top: 12vh;
-    right: 5vw;
+    top: 18vh;
+    right: 0;
     // transform: translateX(150%);
     transition: all 0.5s ease-out;
     background-color: $color-neutral-grayish-blue;
-    width: max-content;
+    width: 50vw;
     z-index: 100;
   }
 

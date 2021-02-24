@@ -17,6 +17,7 @@ html {
 
 body {
   overflow-x: hidden;
+  position: relative;
   font-family: "Be Vietnam", sans-serif; }
 
 .heading2 {
@@ -233,6 +234,7 @@ body {
 
 .navbar {
   padding: 5rem 15rem;
+  height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -301,11 +303,11 @@ body {
     background-color: #9095a7; }
   .navbar__nav {
     position: absolute;
-    top: 12vh;
-    right: 5vw;
+    top: 18vh;
+    right: 0;
     transition: all 0.5s ease-out;
     background-color: #9095a7;
-    width: max-content;
+    width: 50vw;
     z-index: 100; }
   .navbar__list {
     display: flex;
